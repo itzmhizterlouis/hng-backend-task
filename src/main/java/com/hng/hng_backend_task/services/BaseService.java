@@ -12,7 +12,7 @@ public class BaseService {
 
         return Task1Response.builder()
                 .email("itzmhizterlouis@gmail.com")
-                .current_datetime(Instant.now())
+                .current_datetime(Instant.now().toString())
                 .github_url("https://github.com/itzmhizterlouis/hng-backend-task")
                 .build();
     }
